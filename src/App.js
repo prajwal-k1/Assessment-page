@@ -9,10 +9,10 @@ function App() {
     <div className="App">
       <Navbar />
       <ReferalSection />
-      <MidSection />
+      {/* <MidSection />
       <h4>REFERRALS</h4>
       <hr />
-      <FooterSection />
+      <FooterSection /> */}
     </div>
   );
 }
