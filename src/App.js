@@ -6,13 +6,15 @@ import FooterSection from './components/FooterSection';
 
 function App() {
   return (
-    <div className="App">
+    <div className="flex flex-col justify-center">
       <Navbar />
       <ReferalSection />
-      {/* <MidSection />
-      <h4>REFERRALS</h4>
-      <hr />
-      <FooterSection /> */}
+      <MidSection />
+      <div className="flex items-center mx-60 mt-7">
+        <span className='mr-20 text-lg tracking-widest'>REFERRALS</span>
+        <div class="flex-grow h-px bg-gray-400 mr-2"></div>
+      </div>
+      <FooterSection />
     </div>
   );
 }
