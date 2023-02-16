@@ -1,6 +1,11 @@
 # This is a task for interview, I have to implement one page from the given designs
 In a series of design templates from figma I have to pick one and try implemnting the page using React.
 I have picked the Referral page and will be using normal css for styling.
+
+### Result
+
+![result](https://user-images.githubusercontent.com/57027397/219278529-1616d4ce-fa01-4976-a2cb-4a6cab508345.jpg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
