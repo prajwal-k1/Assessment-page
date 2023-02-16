@@ -11,7 +11,7 @@ export default function ReferalSection() {
             </div>
             <div className='flex flex-col rounded-xl bg-blue-100 py-4 px-8 ml-16'>
                 <div className='flex items-center justify-between'>
-                    <button className='border-1 bg-blue-600 px-2 py-1 rounded-md text-sm font-medium mr-3'>Tier 1</button><button className='mr-32 border-1 bg-yellow-500 px-2 py-1 rounded-md text-sm italic font-medium'>Boost 5%</button>
+                    <button className='border-1 bg-blue-600 px-2 py-1 rounded-md text-sm text-white font-medium mr-3'>Tier 1</button><button className='mr-32 border-1 bg-yellow-500 px-2 py-1 rounded-md text-sm italic font-medium'>Boost 5%</button>
                     <p className='text-xs font-medium mr-3 text-blue-600'>Upgrade to higher tier {'>'}</p>
                 </div>
                 <div className='flex justify-between'>
