@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import flash from '../images/flash.png';
+import twitter from '../images/twitter.png';
+import telegram from '../images/telegram.png';
 
 export default function ReferalSection() {
     return (
@@ -11,7 +14,7 @@ export default function ReferalSection() {
             </div>
             <div className='flex flex-col rounded-xl bg-blue-100 py-4 px-8 ml-16'>
                 <div className='flex items-center justify-between'>
-                    <button className='border-1 bg-blue-600 px-2 py-1 rounded-md text-sm text-white font-medium mr-3'>Tier 1</button><button className='mr-32 border-1 bg-yellow-500 px-2 py-1 rounded-md text-sm italic font-medium'>Boost 5%</button>
+                    <button className=' bg-blue-600 px-2 py-1 rounded-md text-sm text-white font-medium mr-2'>Tier 1</button><button className='mr-32 bg-yellow-500 px-1 py-1 rounded-md text-sm italic font-medium flex justify-center items-center'><img src={flash} alt="" className='w-4' />Boost 5%</button>
                     <p className='text-xs font-medium mr-3 text-blue-600'>Upgrade to higher tier {'>'}</p>
                 </div>
                 <div className='flex justify-between'>
@@ -31,8 +34,8 @@ export default function ReferalSection() {
                 <div className='flex justify-between mt-2'>
                     <h4 className='text-md font-medium'>Share on</h4>
                     <ul className='flex mr-3 text-sm font-medium'>
-                        <li className='mr-2'>Twitter</li>
-                        <li className=''>Telegram</li>
+                        <li className='mr-4'><img src={twitter} alt="" className='w-8' /></li>
+                        <li className=''><img src={telegram} alt="" className='w-8' /></li>
                     </ul>
                 </div>
             </div>
