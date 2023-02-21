@@ -9,18 +9,18 @@ import medium from './images/medium.png';
 
 function App() {
   return (
-    <div className="flex flex-col justify-center bg-gradient-to-r from-indigo-400 via-purple-300 to-pink-300 h-auto">
+    <div className="md:flex md:flex-col md:justify-center md:bg-gradient-to-r md:from-indigo-400 md:via-purple-300 md:to-pink-300 h-auto bg-blue-200">
       <Navbar />
-      <div className='flex flex-col w-14 h-32 justify-center items-center absolute top-24 right-1'>
-        <div className='bg-blue-300 p-2 rounded-full w-9 h-9 mb-2'><img src={twitter1} alt="" className='w-6 mt-0.5' /></div>
-        <div className='bg-blue-300 p-2 rounded-full w-9 h-9 mb-2'><img src={discord} alt="" className='w-6 mt-0.5' /></div>
-        <div className='bg-blue-300 p-2 rounded-full w-9 h-9'><img src={medium} alt="" className='w-6 mt-1' /></div>
+      <div className='md:flex md:flex-col md:w-14 md:h-32 md:justify-center md:items-center md:absolute md:top-20 md:right-5 invisible md:visible'>
+        <div className='bg-blue-200 p-2 rounded-full w-9 h-9 mb-2'><img src={twitter1} alt="" className='w-6 mt-0.5 cursor-pointer' /></div>
+        <div className='bg-blue-200 p-2 rounded-full w-9 h-9 mb-2'><img src={discord} alt="" className='w-6 mt-0.5 cursor-pointer' /></div>
+        <div className='bg-blue-200 p-2 rounded-full w-9 h-9'><img src={medium} alt="" className='w-6 mt-1 cursor-pointer' /></div>
       </div>
       <ReferalSection />
       <MidSection />
-      <div className="flex items-center mx-60 mt-7">
-        <span className='mr-20 text-lg tracking-wider font-semibold'>REFERRALS</span>
-        <div class="flex-grow h-px bg-gray-600 mr-2"></div>
+      <div className="flex items-center md:mx-52 mt-7">
+        <span className='md:mr-20 text-lg tracking-wider font-semibold ml-10 mr-10'>REFERRALS</span>
+        <div class="flex-grow h-px bg-gray-600 mr-10"></div>
       </div>
       <FooterSection />
     </div>
