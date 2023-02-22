@@ -5,6 +5,11 @@ I have picked the Referral page and will be using normal css for styling.
 ### Result
 
 ![result](https://user-images.githubusercontent.com/57027397/219278529-1616d4ce-fa01-4976-a2cb-4a6cab508345.jpg)
+![tab1](https://user-images.githubusercontent.com/57027397/220576574-41d11cc4-660d-4e03-a170-1f4b183b2b67.jpg)
+![tab2](https://user-images.githubusercontent.com/57027397/220576659-59f73614-032d-4202-bf33-584e29770eb4.jpg)
+![mobile1](https://user-images.githubusercontent.com/57027397/220576698-643951f4-8773-4d3a-ade6-a9486d1fa1a9.jpg)
+![mobile2](https://user-images.githubusercontent.com/57027397/220576792-3c33a95c-5dd4-421f-8d65-c25c79a90e3b.jpg)
+
 
 # Getting Started with Create React App
 
