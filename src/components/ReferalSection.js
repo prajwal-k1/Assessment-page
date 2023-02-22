@@ -22,19 +22,19 @@ export default function ReferalSection() {
                 <div className='flex md:justify-between'>
                     <div className='bg-white md:w-44 p-3 md:rounded-md rounded-lg w-3/6 md:mt-4 mr-5 md:mr-0'>
                         <h3 className='text-xl font-semibold'>5%</h3>
-                        <p className='text-sm font-normal'>You Receive</p>
+                        <p className='sm:text-sm text-xs font-normal'>You Receive</p>
                     </div>
                     <div className='bg-white md:w-44 p-3 md:mr-3 md:rounded-md rounded-lg w-3/6 md:mt-4'>
                         <h3 className='text-xl font-semibold'>0%</h3>
-                        <p className='text-sm font-normal'>Friends Receive</p>
+                        <p className='sm:text-sm text-xs font-normal'>Friends Receive</p>
                     </div>
                 </div>
                 <div className='flex justify-between md:items-center mt-3 md:py-1 text-sm '>
-                    <h4 className='md:text-md font-medium'>Referral Link</h4>
-                    <p className='md:mr-3 underline underline-offset-2 md:text-xs md:font-normal cursor-pointer'>http://accounts/myAccount</p>
+                    <h4 className='sm:text-md text-xs font-medium'>Referral Link</h4>
+                    <p className='md:mr-3 underline underline-offset-2 text-xs md:font-normal cursor-pointer'>http://accounts/myAccount</p>
                 </div>
                 <div className='flex justify-between items-center md:mt-2 text-sm mt-3'>
-                    <h4 className='md:text-md font-medium'>Share on</h4>
+                    <h4 className='sm:text-md text-xs font-medium'>Share on</h4>
                     <ul className='flex md:mr-3 md:text-sm md:font-medium'>
                         <li className='mr-4'><img src={twitter} alt="" className='w-8 cursor-pointer' /></li>
                         <li><img src={telegram} alt="" className='w-8 cursor-pointer' /></li>

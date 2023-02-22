@@ -24,7 +24,7 @@ export default function Navbar() {
                 <ul className='md:flex md:justify-between md:ml-16 md:items-center md:text-blue-900 md:font-medium md:dark:text-white invisible md:visible'>
                     <li className='md:p-2 md:flex md:justify-center md:items-center cursor-pointer flex justify-around items-center'>
                         <img src={logo} alt="" className='md:w-12 md:mr-1 invisible md:visible w-0' />
-                        <p className='md:text-2xl md:font-medium md:mb-1 md:mr-4 text-xl font-semibold visible mt-2 mr-80'>Magpie</p>
+                        <p className='md:text-2xl md:font-medium md:mb-1 md:mr-4 text-xl font-semibold visible mt-2 sm:mr-80 mr-20'>Magpie</p>
                         <img src={logo} alt="" className='w-9 md:mr-1 visible md:invisible mt-2 mr-5' />
                     </li>
                     <li className='md:p-2 md:mr-4 cursor-pointer invisible md:visible'>Stake</li>
