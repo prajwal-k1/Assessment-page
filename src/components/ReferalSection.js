@@ -16,7 +16,7 @@ export default function ReferalSection() {
             <div className='md:flex md:flex-col md:rounded-xl md:bg-blue-100 md:py-4 md:px-8 md:ml-16
                             bg-blue-200 p-5 rounded-xl'>
                 <div className='md:flex md:items-center md:justify-between '>
-                    <button className=' bg-blue-600 md:px-2 md:py-1 rounded-md text-sm text-white font-medium px-2 py-1.5 md:p-1 md:w-16'>Tier 1</button><button className='md:mr-24 bg-yellow-500 md:px-1.5 md:py-1 rounded-md text-sm italic font-medium flex justify-center items-center -mt-8 ml-16 px-2 py-1.5 md:mt-0 md:ml-3 md:p-1 md:w-28'><img src={flash} alt="" className='w-4' />Boost 5%</button>
+                    <button className=' bg-blue-600 md:px-2 md:py-1 rounded-md text-sm text-white font-medium px-2 py-1.5 md:p-1 md:w-16'>Tier 1</button><button className='md:mr-20 bg-yellow-500 md:px-1.5 md:py-1 rounded-md text-sm italic font-medium flex justify-center items-center -mt-8 ml-16 px-2 py-1.5 md:mt-0 md:ml-3 md:p-1 md:w-24'><img src={flash} alt="" className='w-4' />Boost 5%</button>
                     <p className='md:text-xs md:font-medium md:mr-3 md:text-blue-600 cursor-pointer mt-3 text-sm font-medium mb-1'>Upgrade to higher tier {'>'}</p>
                 </div>
                 <div className='flex md:justify-between'>

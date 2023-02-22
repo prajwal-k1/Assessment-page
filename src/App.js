@@ -18,9 +18,9 @@ function App() {
       </div>
       <ReferalSection />
       <MidSection />
-      <div className="flex items-center md:mx-52 mt-7">
-        <span className='md:mr-20 text-lg tracking-wider font-semibold ml-10 mr-10'>REFERRALS</span>
-        <div class="flex-grow h-px bg-gray-600 mr-10"></div>
+      <div className="flex items-center md:mx-52 mt-7 ">
+        <span className='md:mr-20 text-lg tracking-wider font-semibold mx-10 sm:mx-14 md:ml-8'>REFERRALS</span>
+        <div class="flex-grow h-px bg-gray-600 mr-10 md:mr-16 sm:mr-16"></div>
       </div>
       <FooterSection />
     </div>
