@@ -5,7 +5,7 @@ I have picked the Referral page and will be using normal css for styling.
 ### Result
 Website View :
 
-![result](https://user-images.githubusercontent.com/57027397/219278529-1616d4ce-fa01-4976-a2cb-4a6cab508345.jpg)
+![website](https://user-images.githubusercontent.com/57027397/220578300-c837cfe1-469d-4bbf-ba18-f3deb3d61895.jpg)
 
 Tablet View :
 
